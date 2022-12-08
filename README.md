@@ -3,8 +3,7 @@
 This boilerplate include:
 
 - 💬 TypeScript
-- 📙 SWC
-- ✅ Jest
-- 💅 Prettier & ESLint
+- ✅ Vitest
+- 💅 Prettier
 
 > Forked from https://github.com/lean-mind/typescript-boilerplate
