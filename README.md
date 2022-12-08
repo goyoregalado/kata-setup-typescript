@@ -1,9 +1,9 @@
-# TypeScript Boilerplate
+# TypeScript Kata Setup
 
-This boilerplate include:
+Includes:
 
 - 💬 TypeScript
 - ✅ Vitest
 - 💅 Prettier
 
-> Forked from https://github.com/lean-mind/typescript-boilerplate
+> Mixture from [LeanMind](https://github.com/lean-mind/typescript-boilerplate)'s & [Acid Tango](https://gitlab.com/acid-tango/boilerplates/typescript) boilerplates
