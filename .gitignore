@@ -12,9 +12,6 @@ coverage
 # Transpiled files
 dist/
 
-# JetBrains IDEs
-.idea/
-
 # Optional npm cache directory
 .npm
 
