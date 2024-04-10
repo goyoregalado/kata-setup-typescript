@@ -16,11 +16,11 @@
     "test:coverage": "vitest --coverage"
   },
   "devDependencies": {
-    "@types/node": "20.12.6",
-    "@vitest/coverage-c8": "^0.33.0",
+    "@types/node": "20.12.7",
+    "@vitest/coverage-v8": "1.4.0",
     "prettier": "3.2.5",
     "rimraf": "5.0.5",
     "typescript": "5.4.4",
-    "vitest": "0.34.6"
+    "vitest": "1.4.0"
   }
 }
