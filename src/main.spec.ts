@@ -3,14 +3,14 @@ import { sayHello } from "./main.js"
 
 describe("Default test", () => {
   it("Say hello", () => {
-    const ohcHello = sayHello("Pedro")
+    const ohcHello = sayHello("Pedro", new Date("2021-01-01T7:00:00"))
 
-    expect(ohcHello).toEqual("¡Buenos días Pedro!")
-  });
+    expect(ohcHello).toEqual("¡Buenos dias Pedro!")
+  })
 
   it("says Buenas tardes if we are between 12:00 and 20:00", () => {
-    const ohcHello = sayHello("Pedro", new Date("2021-01-01T15:00:00"));
+    const ohcHello = sayHello("Pedro", new Date("2021-01-01T15:00:00"))
 
-    expect(ohcHello).toEqual("¡Buenas tardes Pedro!");
-  });
+    expect(ohcHello).toEqual("¡Buenas tardes Pedro!")
+  })
 })
