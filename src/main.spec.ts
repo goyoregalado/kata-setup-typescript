@@ -1,10 +1,10 @@
 import { describe, it, expect } from "vitest"
-import { myFunction } from "./main.js"
+import { sayHello } from "./main.js"
 
 describe("Default test", () => {
   it("should work", () => {
-    const result = myFunction()
+    const ohcHello = sayHello("Pedro")
 
-    expect(result).toBe(true)
+    expect(ohcHello).toEqual("¡Buenos días Pedro!")
   })
 })
