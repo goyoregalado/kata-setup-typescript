@@ -13,4 +13,10 @@ describe("Default test", () => {
 
     expect(ohcHello).toEqual("¡Buenas tardes Pedro!")
   })
+
+  it("says Buenas noches if we are between 20:00 and 6:00", () => {
+    const ohcHello = sayHello("Pedro", new Date("2021-01-01T4:00:00"))
+
+    expect(ohcHello).toEqual("¡Buenas noches Pedro!")
+  })
 })
